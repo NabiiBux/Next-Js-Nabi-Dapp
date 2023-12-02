@@ -78,7 +78,7 @@ export default function Web3Providers({ children }) {
         appInfo={{
           appName: CollectionName,
         }}
-        initialChain={contractChainId == 5 ? goerli : mainnet}
+        initialChain={contractChainId == 1 ? goerli : mainnet}
       >
         {children}
       </RainbowKitProvider>
